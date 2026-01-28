@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Small, romantic defaults */
+html,
+body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-romance-bg0 text-romance-cream antialiased;
+}
+
+::selection {
+  background: rgba(255, 93, 162, 0.35);
+}
+
